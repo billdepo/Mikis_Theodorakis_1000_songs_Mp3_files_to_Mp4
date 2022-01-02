@@ -57,3 +57,9 @@ ________________________
 - Script to upload a single video file on YouTube channel
 - Authentication to YouTube API happens by using a local json file "client_secrets.json"
 - Arguments are given when running the script (video_path, video_title, video_description, video_keywords/tags)
+
+________________________
+stixoi_info_song_titles_and_urls.xlsx:
+________________________
+
+- Excel file with 124,574 records extracted from stixoi.info with the lyrics url of the song and its title (converted to capital letters and removed accentuation). This way one can search for the title of the song they are intrested in and easily access the relavant html page from stixoi.info and subsequently extract the lyrics.
