@@ -15,7 +15,7 @@ Required packages:
 - pandas
 
 main.py:
-- Goes through a number of subdirectories with audio tracks
+- Goes through a number of subdirectories with audio tracks (mp3 files)
   
   mp3 directory format:
   --- Audio_tracks
@@ -44,4 +44,5 @@ main.py:
   - video created flag (TRUE / FALSE)
   - description
   
- 
+- Finally, combine the mp3 files with the CD folder's image of each audio track (mp3) to generate a video file in .mp4 format. Directory where generated videos are stored:
+  --- Video_tracks
