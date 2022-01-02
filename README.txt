@@ -14,7 +14,9 @@ Required packages:
 - moviepy
 - pandas
 
+________________________
 main.py:
+________________________
 - Goes through a number of subdirectories with audio tracks (mp3 files)
   
   mp3 directory format:
@@ -46,3 +48,12 @@ main.py:
   
 - Finally, combine the mp3 files with the CD folder's image of each audio track (mp3) to generate a video file in .mp4 format. Directory where generated videos are stored:
   --- Video_tracks
+
+
+________________________
+upload_video.py:
+________________________
+
+- Script to upload a single video file on YouTube channel
+- Authentication to YouTube API happens by using a local json file "client_secrets.json"
+- Arguments are given when running the script (video_path, video_title, video_description, video_keywords/tags)
